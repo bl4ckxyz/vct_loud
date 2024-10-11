@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hall of champions</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="styles.css">
+  <link rel="shortcut icon" href="img/LOUD_logo.ico">
+</head>
+
+<body>
+  <header class="cabeçalho">
+    <div class="container">
+      <input type="checkbox" id="menu" class="container__botao">
+      <label for="menu">
+        <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+      </label>
+      <ul class="lista-menu">
+        <li class="lista-menu__titulo">Sumário</li>
+        <li class="lista-menu__item">
+          <a href="https://www.vlr.gg/events" class="lista-menu__link">Próximos eventos</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="https://www.vlr.gg/rankings" class="lista-menu__link">Ranking mundial</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="https://www.vlr.gg/rankings/brazil" class="lista-menu__link">Ranking brasileiro</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="https://www.vlr.gg/matches" class="lista-menu__link">Próximas partidas</a>
+        </li>
+        <li class="lista-menu__item">
+          <a href="https://www.vlr.gg/stats" class="lista-menu__link">Status dos jogadores</a>
+        </li>
+      </ul>
+      <img src="img/LOUD_logo.svg" alt="" class="container__imagem">
+    </div>
+    <div class="container">
+      <a href="cadastro.html"><img src="img/Usuario.svg" alt="Meu perfil" class="container__imagem"></a>
+    </div>
+  </header>
+
+  <section class="banner">
+    <h2 class="banner__titulo">Vamos conhecer sobre a equipe campeã do VCT Champions de 2022 no VALORANT?</h2>
+    <p class="banner__texto">Role a página para baixo e saiba mais!</p>
+    <input type="search" class="banner__pesquisa" placeholder="*Barra de pesquisa que não funciona">
+  </section>
+
+  <section class="carrossel">
+    <h2 class="carrossel__titulo">Integrantes do time vencedor:</h2>
+    <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><img src="img/Aspas.svg" alt=""></div>
+        <div class="swiper-slide"><img src="img/Pancada.svg" alt=""></div>
+        <div class="swiper-slide"><img src="img/Less.svg" alt=""></div>
+        <div class="swiper-slide">
+          <img src="img/Saadhak.svg" alt="Livro Guia front end" />
+        </div>
+        <div class="swiper-slide">
+          <img src="img/Sacy.svg" alt="Livro sobre portugol" />
+        </div>
+        <div class="swiper-slide">
+          <img src="img/Loud.svg" alt="Livro sobre acessibilidade" />
+        </div>
+      </div>
+  </section>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+
+    <div class="card">
+      <!-- 1º linha -->
+      <div class="card__descrição">
+        <!-- 1º coluna -->
+        <div class="descrição">
+          <img src="img/Estrelinhas.svg" alt="Avaliação 5 estrelas">
+          <h3 class="descrição__titulo">O que foi o VCT Champions de 2022?</h3>
+          <h2 class="descrição__titulo-livro">UM MARCO HISTÓRICO PARA O CENÁRIO DE E-SPORTS DO BRASIL!</h2>
+          <p class="descrição__texto">O VCT Champions 2022 foi o torneio final da temporada competitiva de Valorant, e ocorreu em Istambul, Turquia, de 1 a 18 de setembro de 2022. <br> A LOUD, representando o Brasil, teve um desempenho notável durante o torneio, chegando à final.
+            A equipe brasileira derrotou a americana OpTic Gaming na grande final, com um placar de 3 a 1. <br>Essa vitória foi um marco importante para a LOUD e para a comunidade de Valorant no Brasil, sendo a primeira equipe da América Latina a conquistar um título mundial em Valorant.
+          </p>
+        </div>
+        <!-- 2º coluna -->
+        <img src="img/Valorant.svg" class="descrição__imagem">
+      </div>
+
+      <!-- 2º linha -->
+      <div class="card__botões">
+        <!-- 1º coluna -->
+        <ul class="botões">
+          <li class="botões__item"></li>
+          <li class="botões__item"></li>
+        </ul>
+        <!-- 2º coluna -->
+        <a href="https://playvalorant.com/pt-br/" class="botões__ancora">Torne-se um campeão <br> mundial também</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="tópicos">
+    <h2 class="tópicos__titulo">Confira algumas jogadas INCRÍVEIS que rolaram:</h2>
+    <ul class="tópicos__lista">
+      <li class="tópicos__item"><a href="https://youtu.be/nopLzCnPlbA?t=2" class="tópicos__link">Pancada ninja defuse</a></li>
+      <li class="tópicos__item">
+        <a href="https://youtu.be/nopLzCnPlbA?t=45" class="tópicos__link">Saadhak triple kill</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="https://youtu.be/nopLzCnPlbA?t=56" class="tópicos__link">Aspas clutch</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="https://youtu.be/nopLzCnPlbA?t=86" class="tópicos__link">Less quadra kill</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="https://youtu.be/nopLzCnPlbA?t=102" class="tópicos__link">Sacy & Saadhak clutch</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="https://youtu.be/gFEx5r1xxc4?t=5" class="tópicos__link">Aspas VS Yay</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="https://youtu.be/QzCwlYXSit4?t=62" class="tópicos__link">Pancada triple</a>
+      </li>
+      <li class="tópicos__item">
+        <a href="https://youtu.be/QzCwlYXSit4?t=100" class="tópicos__link">Aspas VS ScreaM</a>
+      </li>
+    </ul>
+  </section>
+
+  <section class="carrossel">
+    <h2 class="carrossel__titulo">Integrantes do time rival:</h2>
+    <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><img src="img/Yay.svg"
+            alt=""></div>
+        <div class="swiper-slide"><img src="img/Marved.svg"
+            alt=""></div>
+        <div class="swiper-slide"><img src="img/Crashies.svg" alt="">
+        </div>
+        <div class="swiper-slide">
+          <img src="img/Victor.svg" alt="Livro Guia front end" />
+        </div>
+        <div class="swiper-slide">
+          <img src="img/FNSKKKKKKKKKKKKK.svg" alt="Livro sobre portugol" />
+        </div>
+        <div class="swiper-slide">
+          <img src="img/Optic.svg" alt="Livro sobre acessibilidade" />
+        </div>
+      </div>
+  </section>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+
+    <div class="card">
+      <!-- 1º linha -->
+      <div class="card__descrição">
+        <!-- 1º coluna -->
+        <div class="descrição">
+          <img src="img/Estrelinhas.svg" alt="Avaliação 5 estrelas">
+          <h3 class="descrição__titulo">OpTic Gaming no VCT Champions 2022</h3>
+          <h2 class="descrição__titulo-livro">Um eco de promessas perdidas no VCT Champions 2022</h2>
+          <p class="descrição__texto">A OpTic Gaming teve um desempenho notável no VCT Champions de 2022, realizado em Istambul. Começando forte na fase de grupos, garantiram a vaga nas eliminatórias<br>ao terminar em uma posição favorável. Nas quartas de final, venceram a LOUD com jogadas inteligentes e boa comunicação. Em seguida, superaram a equipe sul-coreana DRX nas semifinais,<br>garantindo um lugar na final contra a Team Liquid. Após uma intensa disputa, a OpTic saiu vitoriosa, conquistando o título. Com jogadores talentosos e um estilo de jogo tático, a vitória solidificou a OpTic <br> como uma das melhores equipes de Valorant, trazendo prestígio à organização e inspirando novas equipes no cenário competitivo.</p>
+        </div>
+        <!-- 2º coluna -->
+        <img src="img/PIX.svg" class="descrição__imagem2">
+      </div>
+
+      <!-- 2º linha -->
+      <div class="card__botões">
+        <!-- 1º coluna -->
+        <ul class="botões">
+          <li class="botões__item"></li>
+          <li class="botões__item"></li>
+        </ul>
+        <!-- 2º coluna -->
+        <a href="https://nubank.com.br/cobrar/8rngqy/67088de6-193b-40eb-91c7-d09e97185cf1" class="botões__ancora2">Me ajude com<br> qualquer valor</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="contato">
+    <h2 class="contato__titulo">Fique por dentro das novidades do cenário de e-sports!</h2>
+    <p class="contato__texto">
+      Atualizações de eventos, campeonatos, entre outros.
+    </p>
+    <input type="email" placeholder="Cadastre seu e-mail" class="contato__email" />
+  </section>
+
+  <hr />
+
+  <footer class="rodapé">
+    <h2 class="rodapé__titulo">Equipe BL4CKz</h2>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper(".swiper", {
+      spaceBetween: 10,
+      slidesPerView: 3,
+      pagination: {
+        el: ".swiper-pagination",
+        type: "bullets",
+      },
+    });
+  </script>
+</body>
+
+</html>
